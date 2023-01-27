@@ -1,7 +1,16 @@
 #banner{
 	width: 100%;
 }
-h2 {
+h2{
+		padding-top: 20px;
+		margin: 0 0 0 20px;
+		color:#808080;
+		font-weight: bold;
+		font-size: 28px;
+
+}
+
+h3 {
 	position:absolute;
 	top: 80px;
 	left: 60px;
@@ -30,3 +39,29 @@ nav a {
 	font-size: 22px;
 	text-decoration: none;
 }
+.produtos {
+	width: 1368px;
+	margin: 0 auto;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 19%;
+	vertical-align: top;
+	padding:50px 0;
+
+}
+.produtos h4 {
+	font-size:15px;
+	font-weight: bold;
+}
+.produto-preco {
+	font-size:15px;
+	font-weight: bold;
+}
+.produto-descricao {	
+	font-size: 12px;
+
+}
+
