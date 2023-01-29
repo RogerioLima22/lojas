@@ -1,4 +1,6 @@
+
 body {
+	font-family: 'Montserrat', sans-serif;
 	background: #DCDCDC;
 }
 
@@ -47,62 +49,60 @@ nav a:hover{
 	color:#0000FF;
 	text-decoration: underline;
 }
-.produtos {
-	width: 1300px;
-	margin: 30px auto;
+
+
+main {
+	width: 940px;
+	margin: 0 auto;
 }
 
-.produtos li {
-	display: inline-block;
-	text-align: center;
-	width: 17%;
-	vertical-align: top;
-	padding:50px 0;
-	background:#FFFFFF;
-	margin: 5px auto 0 25px;
-	padding: 30px 20px;
-	left: 30px;
-	box-sizing: border-box;
-	border:2px solid #F0F8FF;
-	border-radius: 10px ;	
-}
-.produtos li:hover{
-	border-color: #DCDCDC;
-	font-size: 18px;
-}
-.produtos h4 {
-	text-align: center;
-	font-size:15px;
+
+form {
+	margin: 40px 0;
 	font-weight: bold;
+	color: #A9A9A9;
+
+
 }
-.produto-preco {
-	font-size:15px;
+form label, legend{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+
+}
+
+
+.checkbox {
+	margin: 20px 0;
+}
+.enviar {
+	width: 30%;
+	background:#3CB371;
+	padding: 10px 0;
+	color:#FFFF00;
 	font-weight: bold;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	cursor:pointer;
 }
-.produto-descricao {
-	padding: 30px 0;
-	color: #A9A9A9;	
+.enviar:hover {
+	background: #0000FF;
+	color:white;
+	transition: 1s all;
+	transform: scale(1.2);
 }
 
-
-.zoom {
-	overflow: hidden;
-}
-.zoom img {
-	max-width: 100%;
-	-moz-transition: all 0.3s;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
-}
-.zoom:hover img {
-	-moz-transform: scale(1.2);
-	-webkit-transform: scale(1.2);
-	transition: scale(1.2);
-}
 footer {
 	text-align: center;
-	background: #228B22;
+	background: #3CB371;
 	color:#FFFF00;
 	padding: 40px 0;
 }
-
